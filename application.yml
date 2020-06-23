@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: YMJ-SPRING-CLOUD-CONFIG
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/ywxazm/config.git
+          username: ywx_azm
+          password: Over12340
+          basedir: ./src/main/resources
+
+server:
+  port: 8691
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
