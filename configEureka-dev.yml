@@ -6,4 +6,4 @@ eureka:
     registerWithEureka: false
     fetchRegistry: false
     serviceUrl:
-      defaultZone:   http://@eureka-ip@:@eureka-port@/eureka/
+      defaultZone:   http://127.0.0.1:9999/eureka/
