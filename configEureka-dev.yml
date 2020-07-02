@@ -1,9 +1,1 @@
-#Eureka服务器配置
-eureka:
-  instance:
-    hostname: 127.0.0.1
-  client:
-    registerWithEureka: false
-    fetchRegistry: false
-    serviceUrl:
-      defaultZone:   http://127.0.0.1:9999/eureka/
+aa=bb
