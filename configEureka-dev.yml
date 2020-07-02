@@ -1,7 +1,7 @@
 #Eureka服务器配置
 eureka:
   instance:
-    hostname: @eureka-ip@
+    hostname: 127.0.0.1
   client:
     registerWithEureka: false
     fetchRegistry: false
